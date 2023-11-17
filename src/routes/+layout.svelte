@@ -93,7 +93,7 @@
 					<LightSwitch />
 					<a
 						class="btn btn-sm variant-ghost-surface"
-						href="https://github.com/r1tt3rr0st/IPWA01-CO2_footprint"
+						href="https://github.com/r1tt3rr0st/IPWA01-01_CO2_footprint"
 						target="_blank"
 						rel="noreferrer"
 					>
