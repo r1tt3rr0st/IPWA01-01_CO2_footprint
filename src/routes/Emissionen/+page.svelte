@@ -9,7 +9,7 @@
     onMount(() => {
         const language = navigator.language;
         const countryCode = language.split("-")[0];
-        isrtl = ["ar", "he", "en"].includes(countryCode);
+        isrtl = ["ar", "he"].includes(countryCode);
     });
 	
 
