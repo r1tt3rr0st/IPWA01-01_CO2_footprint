@@ -42,14 +42,17 @@
 		<AppBar>
 			<svelte:fragment slot="lead">
 				{#if isrtl}
-					<a
-						class="btn btn-sm variant-ghost-surface"
-						href="https://github.com/r1tt3rr0st/IPWA01-CO2_footprint"
-						target="_blank"
-						rel="noreferrer"
-					>
-						GitHub
-					</a>
+					<div class="flex items-center space-x-2">
+						<a
+							class="btn btn-sm variant-ghost-surface"
+							href="https://github.com/r1tt3rr0st/IPWA01-CO2_footprint"
+							target="_blank"
+							rel="noreferrer"
+						>
+							GitHub
+						</a>
+						<LightSwitch />
+					</div>
 				{/if}
 				{#if !isrtl}
 					<div class="flex items-center space-x-2">
@@ -77,7 +80,6 @@
 					<div class="flex items-center space-x-2">
 						<strong class="text-xl uppercase">CO<sub>2</sub>-Footprint</strong>
 						<img src="co2.png" alt="CO2 Icon">
-						<LightSwitch />
 						<button class=" btn btn-sm mr-4" on:click={drawerOpen}>
 							<span>
 								<svg viewBox="0 0 100 80" class="fill-token w-4 h-4">
